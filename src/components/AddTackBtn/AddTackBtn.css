@@ -1,0 +1,14 @@
+#addTackBtn {
+  position: fixed;
+  bottom: 4%;
+  right: 4%;
+  font-size: 3.6rem;
+  color: #00509d;
+}
+/* #addTackBtn Dialog {
+  
+} */
+.MuiDialog-paperWidthSm {
+  border-radius: 0px 25px 0px 25px !important;
+  margin: 0.4rem !important;
+}

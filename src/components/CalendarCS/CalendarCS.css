@@ -1,13 +1,15 @@
 .CalendarCS {
-  width: 420px !important;
+  width: 100% !important;
   border: none !important;
   font-size: 1.2rem;
-  height: 26.8rem !important;
+  min-height: 22rem !important;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0px 20px;
+  padding: 0px 10px;
   box-shadow: 1px 1px 5px 0px #d4cdcd;
+  border-radius: 0px 25px 0px 25px;
+  line-height: 1rem !important;
 }
 
 .react-calendar__navigation__label__labelText {
@@ -21,6 +23,10 @@
   font-weight: normal;
 }
 .react-calendar__tile--active {
-  background-color: #1befdef5 !important;
-  border-radius: 15px;
+  background-color: #00509d !important;
+  border-radius: 0px 15px 0px 15px;
+}
+.react-calendar__tile--now {
+  border-radius: 0px 15px 0px 15px;
+  background-color: rgba(142, 248, 248, 0.733) !important;
 }

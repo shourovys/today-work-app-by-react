@@ -1,0 +1,30 @@
+.CheckCircleIcon {
+  color: rgb(9, 196, 9);
+  cursor: pointer;
+  margin: 0 0.3rem;
+}
+.CancelIcon {
+  color: red;
+  cursor: pointer;
+  margin: 0 0.3rem;
+}
+
+li {
+  list-style: none;
+  flex: 1;
+}
+.work {
+  width: 100%;
+  display: flex;
+  border-radius: 0px 15px 0px 15px;
+  padding: 0.4rem;
+  margin: 0.3rem 0rem;
+  border: 1px solid lightgray;
+}
+.icon {
+  display: flex;
+}
+
+.itDone {
+  color: lightgray;
+}

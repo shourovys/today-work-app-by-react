@@ -1,0 +1,10 @@
+#todo {
+  border-radius: 0px 25px 0px 25px;
+  padding: 0rem 0.4rem;
+  border: 1px solid lightgray;
+  box-shadow: 1px 1px 5px 0px #d4cdcd;
+  margin: 0.6rem 0.4rem;
+}
+#todo h2 {
+  font-size: 1.6rem;
+}

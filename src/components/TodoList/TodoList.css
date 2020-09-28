@@ -1,0 +1,16 @@
+#todo-list {
+  border-radius: 0px 25px 0px 25px;
+  width: 100%;
+  padding: 0.4rem 0.5rem;
+  border: 1px solid lightgray;
+  box-shadow: 1px 1px 5px 0px #d4cdcd;
+  margin-bottom: 1rem;
+}
+#todo-list-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+#todo-list-header h2 {
+  font-size: 1.6rem;
+}

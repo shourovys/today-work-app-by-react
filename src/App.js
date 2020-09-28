@@ -1,11 +1,16 @@
 import React from 'react';
 import './App.css';
-import CalendarCS from './components/CalendarCS/CalendarCS';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from './components/Home/Home';
+import DateContextProvider from './components/useDate/useDate';
+
 
 function App() {
   return (
     <div className="App">
-      <CalendarCS></CalendarCS>
+      <DateContextProvider>
+        <Home></Home>
+      </DateContextProvider>
     </div>
   );
 }
